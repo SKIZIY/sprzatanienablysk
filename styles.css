@@ -199,11 +199,44 @@ body {
   padding: 4rem 0;
   background: linear-gradient(135deg, #eff6ff 0%, #f3f4f6 100%);
   text-align: center;
+  /* Added position relative for background image positioning */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Added hero background image styles */
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.hero-bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, rgba(239, 246, 255, 0.95) 0%, rgba(243, 244, 246, 0.95) 100%);
+  backdrop-filter: blur(2px);
 }
 
 .hero-content {
   max-width: 800px;
   margin: 0 auto;
+  /* Added position relative to ensure content appears above background */
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
