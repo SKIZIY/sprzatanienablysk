@@ -19,9 +19,9 @@ Numer telefonu `+48123456789` znajduje się w kilku miejscach:
    - Stopka
 
 2. **index.html** - Schema.org JSON-LD (linia ~28):
-   ```json
+   \`\`\`json
    "telephone": "+48123456789"
-   ```
+   \`\`\`
 
 ### Zmiana miasta
 
@@ -37,35 +37,35 @@ Słowo "Wrocław" pojawia się w:
 ### Zmiana tekstu hero
 
 Sekcja hero znajduje się w pliku `index.html` (linie 72-82):
-```html
+\`\`\`html
 <h1>Sprzątanie Na Błysk – Wrocław</h1>
 <p class="hero-subtitle">Szybkie i dokładne sprzątanie...</p>
-```
+\`\`\`
 
 ### Edycja cen
 
 Wszystkie ceny znajdują się w sekcji `#cennik` w pliku `index.html` (linie 128-260).
 
 Każdy wiersz cennika ma strukturę:
-```html
+\`\`\`html
 <div class="pricing-row">
     <span class="pricing-item">Nazwa usługi</span>
     <span class="pricing-price">Cena PLN</span>
 </div>
-```
+\`\`\`
 
 ## 🎨 Zmiana kolorów
 
 Kolory definiowane są w pliku `styles.css` (linie 11-20):
 
-```css
+\`\`\`css
 :root {
     --primary-color: #2563eb;      /* Główny kolor (niebieski) */
     --primary-hover: #1d4ed8;      /* Hover dla głównego koloru */
     --accent-color: #10b981;       /* Kolor akcentu (zielony) */
     /* ... */
 }
-```
+\`\`\`
 
 ## 📱 Funkcjonalności
 
@@ -92,12 +92,12 @@ W ustawieniach projektu Replit możesz podłączyć własną domenę.
 
 ## 📁 Struktura plików
 
-```
+\`\`\`
 ├── index.html      # Główny plik HTML ze wszystkimi sekcjami
 ├── styles.css      # Wszystkie style CSS
 ├── script.js       # Interakcje JavaScript (menu, FAQ, scroll)
 └── README.md       # Ten plik
-```
+\`\`\`
 
 ## 🔧 Brak formularza kontaktowego
 
